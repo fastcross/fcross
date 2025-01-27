@@ -1,0 +1,11 @@
+/usr/local/experiment/release/fcross/contracts/coordinator1/target/debug/deps/libcosmwasm_schema-395eff25bb00197d.rmeta: /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/casing.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/export.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/idl.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/query_response.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/remove.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/schema_for.rs
+
+/usr/local/experiment/release/fcross/contracts/coordinator1/target/debug/deps/cosmwasm_schema-395eff25bb00197d.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/casing.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/export.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/idl.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/query_response.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/remove.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/schema_for.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/casing.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/export.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/idl.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/query_response.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/remove.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-1.5.8/src/schema_for.rs:

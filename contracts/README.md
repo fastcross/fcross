@@ -1,0 +1,18 @@
+main分支的mf1中，交易必须依照严格的tx_id来提交，否则返回错误（pending溢出时也会报错），并且会被严格地按照顺序来执行
+dev分支：
+目前所有的mf都暂不支持early abort功能
+mf1中，交易必须依照严格的tx_id来提交，否则返回错误（pending溢出时不会报错，会缓存在一个waiting序列中），并且会被严格地按照顺序来执行
+mf2中，1）交易无全局顺序（即tx_id不代表其执行顺序），被提交后会立即执行2）交易长度溢出时会缓存在waiting序列中2）一个交易中可能包含多个fcross_tx（逻辑交易），从而绕过交易发起速度过快出现sequence mismatch问题 （暂时不考虑多个dApp的问题）todo:mf2的start_time可能会被设置两次
+mf3中，在mf2的基础上，合并所有mf存储
+mf4中，在mf3的基础上，加入状态剪枝优化，实施方案：to be decided
+mf5中，在mf3的基础上，加入范围化执行，实施方案：在标准的pending_list后面增加一簇blurring_pending_list
+vanilla中，交易执行时封锁一个状态，执行结束时解锁该状态
+avalon中，交易执行后进行一轮status投票，收到肯定的instruction后进入prepare阶段，进行第二次validity投票，投票内容为自己的deps，从而决定最终的commitment/abort；目前，我们不考虑不同跨链交易在不同的链上顺序不同的情况，也即，不需要引入超时机制
+
+coordinator1兼容vanilla/fcross
+coordinator2只适用于avalon中两阶段投票（status vote & validity vote）
+
+在determined_blurring分支中：mf5中，tx执行后必须要有determined status才能加入blurring_pending_list
+
+
+两个可能降低mf gas消耗的优化：减少不必要的attrs emit，将长vec换成map

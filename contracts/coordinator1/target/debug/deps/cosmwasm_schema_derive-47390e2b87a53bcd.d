@@ -1,0 +1,9 @@
+/usr/local/experiment/release/fcross/contracts/coordinator1/target/debug/deps/libcosmwasm_schema_derive-47390e2b87a53bcd.so: /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/cw_serde.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/generate_api.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/query_responses.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/query_responses/context.rs
+
+/usr/local/experiment/release/fcross/contracts/coordinator1/target/debug/deps/cosmwasm_schema_derive-47390e2b87a53bcd.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/cw_serde.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/generate_api.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/query_responses.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/query_responses/context.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/cw_serde.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/generate_api.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/query_responses.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-4affec411d11e50f/cosmwasm-schema-derive-1.5.8/src/query_responses/context.rs:
